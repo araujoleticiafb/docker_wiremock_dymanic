@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/users",
+    "queryParameters" : {
+      "page" : {
+        "matches" : "[\\s\\S]*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "listOfUsers_response.json",
+    "transformers": ["body-transformer"]
+  }
+}

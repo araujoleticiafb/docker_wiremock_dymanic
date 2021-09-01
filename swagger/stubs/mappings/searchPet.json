@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/v2/pet/[\\s\\S]*"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "searchPet_response.json",
+    "transformers": ["body-transformer"]
+  }
+}

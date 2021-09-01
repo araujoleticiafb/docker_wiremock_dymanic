@@ -1,0 +1,12 @@
+{
+    "id": "{{randomValue length=6 type='NUMERIC'}}",
+    "category": {
+      "id": "CA-{{randomValue length=6 type='NUMERIC'}}-01"
+    },
+    "name": "Kyara",
+    "date": "{{now}}",
+    "timezoneBrazil": "{{now timezone='America/Sao_Paulo' format='dd-MM-yyyy HH:mm:ssZ'}}",
+    "photoUrls": [],
+    "tags": [],
+    "status": "available"
+}
