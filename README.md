@@ -2,9 +2,11 @@
 
 This project has the structure of mocked APIs, which can be used in UI automated tests or manual testing when third-party systems are down.
 
-## 🔧 Applied technologies
+## 🔧 Tools & Technologies
 
 This project applies the framework [Wiremock](http://wiremock.org/docs/), which responses can be dynamics, used with [Docker](https://hub.docker.com/r/rodolpheche/wiremock).
+
+> **NOTE 1:** [Click here to support in regex](https://regexr.com/)
 
 ## 📦 Project organization
 
@@ -50,6 +52,6 @@ $ docker run -it --rm -p 8443:8443 YOUR_IMAGE_NAME --https-port 8443 --verbose
 | docker rmi ID_IMAGE | Remove an imagem |
 | docker exec -it ID_CONTAINER bash | Login a container |
 
-> **NOTE 1:** Use **docker ps -a** to show the ID_CONTAINER.
+> **NOTE 2:** Use **docker ps -a** to show the ID_CONTAINER.
 
-> **NOTE 2:** Use **docker images** to show the ID_IMAGE.
+> **NOTE 3:** Use **docker images** to show the ID_IMAGE.
